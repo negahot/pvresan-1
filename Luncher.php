@@ -222,7 +222,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال ب
  https://telegram.me/storebot?start=ResaneBot
 .";
     
-    $bot_url    = "https://api.telegram.org/bot244848409:AAELTYFhw7389YwaUS4LgznVfBOTBjzPELE/"; 
+    $bot_url    = "https://api.telegram.org/bot269343712:AAFQRfu1eVCyYVhZdwnmQuzgvhpESWtjwgc/"; 
     $url        = $bot_url . "sendMessage?chat_id=" . $chat_id ; 
 
 $post_fields = array('chat_id'   => $chat_id, 
@@ -304,7 +304,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال ب
 برای ورود به ربات خود کلیک کنید 👇😃
 ";
     
-    $bot_url    = "https://api.telegram.org/bot244848409:AAELTYFhw7389YwaUS4LgznVfBOTBjzPELE/"; 
+    $bot_url    = "https://api.telegram.org/bot269343712:AAFQRfu1eVCyYVhZdwnmQuzgvhpESWtjwgc/"; 
     $url        = $bot_url . "sendMessage?chat_id=" . $chat_id ; 
 
 $post_fields = array('chat_id'   => $chat_id, 
@@ -360,7 +360,7 @@ else{
 }
 
 
-define('WEBHOOK_URL', 'https://my-site.example.com/secret-path-for-webhooks/');
+define('WEBHOOK_URL', 'https://resane-amirrramh.rhcloud.com/secret-path-for-webhooks/');
 
 if (php_sapi_name() == 'cli') {
   // if run from console, set or delete webhook
